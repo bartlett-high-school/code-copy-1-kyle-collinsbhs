@@ -1,15 +1,124 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-    <title>Code Copy #1</title>
-    
-    <!--Put your CSS inside this style tag-->
+      <title>Code Copy #1</title>   
+          <!--Put your CSS inside this style tag-->
     <style>
+
+    .class {
+    	clear: both;
+    }
+
+
+    body {
+    	margin: 0;
+    	padding: 0;
+    	height: 100%;
+    	width: 50%;
+    	background-color: white;
+    }
+
+    .post-header {
+    	max-height: 10%;
+    	display: inline-block;
+    }
+
+    .post-header div img {
+    	width: 10%;
+    	text-align: left;
+    	float: left; 
+    }
+
+    .post-header a {
+		text-align: center;
+		float: left;
+    }
+
+    .poster-header .time {
+    	width: 50%;
+    	text-align: right;
+    	float: right;
+    }
+    
+    .post-image {
+    	max-height: 70%;
+    }
+
+    .post-image img {
+    	width: 50%;
+    	height: 50%;
+    }
+
+    hr {
+    	/*width: 50%;*/
+    }
+
+    .post-info .heart {
+    	width: 10%;
+    	text-align: left;
+    	float: left; 
+    }
+
+    .post-info .comment {
+    	color: grey;
+    	float: left;
+    	text-align: center;
+    }
+
+    .post-info .dot3 {
+    	width: 10%;
+    	text-align: right;
+    	float: right;
+
+    }
+
     </style>
   </head>
   
   <body>
+ 	<div class="post">
+ 		<!--Beginning of the Post Header-->
+ 		<div class="post-header">
+ 			<div>
+ 				<img src="img/chef_icon" class="icon">
+ 			</div>
+ 			<div>
+ 				<p>
+ 					<a href="https://www.instagram.com/F00DWARS">F00DWARS</a>
+ 				</p>
+ 			</div>
+ 			<div class="clear"></div>
+ 			<div>
+ 				<p class="time">4H20M</p>
+ 			</div>
+ 			<div class="clear"></div>
+ 		</div>
+ 		<!--End of the Post Header-->
+ 		<!--Beginning of the Post Image-->
+ 		<div class="post-image">
+ 			<div>
+ 				<img src="img/cheeseburger1.jpg">
+ 			</div>
+ 		<!--End of the Post Image-->
+ 		<!--Beginning of the Post Info-->
+ 		<div class="post-info">
+ 			<p>100 Likes</p>
+ 			<p><a href="https://www.instagram.com/F00DWARS">F00DWARS</a>Best burger in town my dude!</p>
+ 			<hr>
+ 			<div class="heart">
+ 				<img src="img/ig_heart.png">
+ 			</div>
+ 			<div>
+ 				<p class="comment">Add a comment...</p>
+ 			</div>
+ 			<div class="clear"></div>
+ 			<div class="dot3">
+ 				<img src="img/ig_dots.png">
+ 			</div>
+ 			<div class="clear"></div>
+ 		</div>
+ 		<!--End of the Post Image-->	
+ 		</div>
+ 	</div>
   </body>
-  
 </html>
